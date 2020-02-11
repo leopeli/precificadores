@@ -1,0 +1,127 @@
+@import "./fonts.css";
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.thumb {
+    width: 20%;
+    transform: translate(0, -10px);
+}
+
+.maiuscula {
+    text-transform: uppercase;
+}
+
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 100%;
+    padding: 3%;
+    font-family: "Diodrum_semibold"; 
+    border: 1px solid red;
+}
+
+.grid {
+    padding: 0 1%;
+}
+
+.grid-3 {
+    width: 20%;
+}
+
+.grid-4 {
+    width: 25%;
+}
+
+.grid-5 {
+    width: 50%;
+}
+
+.text_produto,
+.preco_antigo {
+    font-family: "Diodrum_bold";
+    font-size: 2vw;
+}
+
+.preco_antigo {
+    font-size: 3vw;
+    color: #ed1c24;
+}
+
+.exclusivo {
+    width:50%;
+    text-align: right;
+    font-family: "Diodrum_semibold";
+    font-size: 1vw;
+}
+
+.box-ofertas,
+.box-parcelas {
+    position: relative;
+    padding-top: 7% ;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.-azul {
+    background-color: #0072bc;
+}
+
+.-cinza {
+    background-color: #939598;
+}
+
+.ofertas._center {
+    align-self: center;
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 7vw;
+}
+
+.preco > .moeda {
+    font-family: "Diodrum_medium";
+    font-size: 1.5vw;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.preco > .centavos {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.5vw;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+.parcelas {
+    font-size: 12px;
+}
+
+.titulo-box {
+    max-width: 100%;
+    background-color: #d1d3d4;
+    padding: 3px;
+    margin-bottom: 10px;
+    font-family: "Diodrum_bold";
+    font-size: 2vw;
+    color: #ed1c24;
+    text-align: center;
+}
+
+.rodape-box {
+    display: flex;
+    justify-content: center;
+}
+
+.box-parcelas > .conteudo {
+    display: flex;
+}
